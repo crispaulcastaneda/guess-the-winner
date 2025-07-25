@@ -1,0 +1,512 @@
+@charset "UTF-8";
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*  MISC  */
+.line-icon {
+  width: 36px;
+  vertical-align: middle;
+  margin-top: 4px;
+}
+.hide {
+  display: none !important;
+}
+.contact-info {
+  display: block;
+  margin-top: 10px;
+}
+.contact--link {
+  color: #fff;
+  font-weight: 200;
+  font-weight: 700;
+  font-size: 19px;
+  vertical-align: middle;
+}
+.unavailable {
+  position: relative;
+  background-color: var(--cool-grey);
+  color: #777777;
+  pointer-events: none;
+  border: none;
+  cursor: not-allowed;
+}
+.tc--link {
+  color: #222939;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.rollover {
+  padding-left: 15px;
+}
+/* END OF MISC */
+
+/* .header__langs {
+  display: none !important;
+} */
+
+/* CENTER LOGO FOR SINGLE LANGUAGE */
+/* .header__logo {
+  margin: 0 auto;
+} */
+
+.raf-header {
+  line-height: 32px;
+}
+.raf-description {
+  line-height: 28px;
+}
+.refer-steps {
+  margin-bottom: 24px;
+}
+.refer-steps p {
+  line-height: 26px;
+  padding-left: 15px;
+}
+.table--parent {
+  margin-bottom: 24px;
+}
+.table--parent table th,
+.table--parent table td {
+  text-align: center;
+}
+
+.content__banner__texts > .btn {
+  margin: 0 8px 24px 8px;
+  font-size: 14px;
+  min-width: 220px;
+  padding: 20px 15px;
+  border-radius: 36px;
+  display: inline-block;
+  white-space: nowrap;
+}
+body[data-lang="vn"] .content__teaser__banner .btn {
+  padding: 16px 24px;
+}
+.desk-header {
+  display: block;
+  visibility: hidden;
+  /* margin-left: 90px; */
+}
+.mobi-header {
+  display: none;
+}
+
+/* FOOTER NEW */
+.partners--holder {
+  width: 100%;
+}
+.new__sponsors {
+  background-color: #f5f5f5;
+  padding: 40px 1.5em;
+  display: none;
+}
+.new--sponsors-title {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.new--sponsors-title h1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a202c;
+}
+.new__sponsors-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 45px;
+}
+.sponsor--first-set,
+.sponsor--second-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 45px;
+  text-align: center;
+}
+.sponsor--title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.sponsor--year {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1a202c;
+}
+.frame--flex img {
+  margin-bottom: 24px;
+}
+.frame--flex > .strng--txt {
+  margin-bottom: 8px;
+  color: #1a202c;
+}
+
+/* HOVER STATE FOR EVERY FRAMES */
+.frame--flex img {
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.txt__tile-sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 12px;
+}
+/* END OF NEW SPONSORSHIP */
+
+.comm__footer {
+  padding: 40px 24px;
+  background-color: #222939;
+}
+.inner__footer {
+  max-width: 1312px;
+  margin: 0 auto;
+}
+.or__partnership-mobi {
+  display: none;
+}
+.or__partnership {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.or__partnership-title h1 {
+  font-size: 16px;
+  color: #a7a9b0;
+  text-align: center;
+}
+.or__partnership-title {
+  margin-bottom: 40px;
+}
+.or__partnership-txt p:first-child {
+  font-weight: 700;
+}
+.txt__tile-sponsor p:first-child {
+  font-weight: 700;
+}
+.txt__tile-sponsor p:first-child {
+  font-weight: 700;
+}
+.or__partnership-sponsor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2.9vw;
+}
+.or__partnership-first,
+.sponsor__acm,
+.sponsor__laliga,
+.sponsor__afc,
+.sponsor__crystal,
+.sponsor__manchester,
+.sponsor__tottemham {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 13px;
+}
+.or__partnership-first img {
+  width: 28.57px;
+  height: 40px;
+}
+.or__partnership-first p {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 0.6;
+}
+.sponsor__acm img,
+.sponsor__laliga img,
+.sponsor__afc img,
+.sponsor__crystal img,
+.sponsor__manchester img,
+.sponsor__tottemham img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+.sponsor__acm p,
+.sponsor__laliga p,
+.sponsor__afc p,
+.sponsor__crystal p,
+.sponsor__manchester p,
+.sponsor__tottemham p {
+  font-size: 12px;
+  color: #90949c;
+  line-height: 0.6;
+}
+
+/* ID */
+body[data-lang="id"] .no--id,
+body[data-lang="vn"] .no--id,
+body[data-lang="th"] .no--id {
+  display: none;
+}
+
+.sponsor--first-set .frame--one {
+  display: none;
+}
+
+.sponsor--first-set .frame--one a > img {
+  width: 169.75px;
+  height: 56px;
+}
+
+.sponsor--first-set .frame-five a > img {
+  width: 209.52px;
+  height: 56px;
+}
+
+.sponsor--first-set .frame-seven a > img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 16px;
+}
+
+.text--underscore {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1366px) {
+  .frame--flex a > img {
+    max-width: 12.958vw;
+  }
+  .sponsor--title {
+    font-size: 1.025vw;
+  }
+}
+
+@media (max-width: 1023px) {
+  /* SPONSORSHIP NEW */
+  .new--sponsors-title {
+    margin-bottom: 40px;
+  }
+  .new__sponsors {
+    background-color: #f5f5f5;
+    padding: 32px 16px 32px 16px;
+  }
+
+  .sponsor--first-set .frame--one a > img {
+    width: 88.02px;
+    height: 28px;
+  }
+  .sponsor--first-set .frame-two a > img {
+    width: 34px;
+    height: 28px;
+  }
+  .sponsor--first-set .frame-three a > img {
+    width: 32px;
+    height: 28px;
+  }
+  .sponsor--second-set .frame-four a > img {
+    width: 59.5px;
+    height: 28px;
+  }
+  .sponsor--first-set .frame-five a > img {
+    width: 48.95px;
+    height: 28px;
+  }
+  .sponsor--first-set .frame-six a > img {
+    width: 62.51px;
+    height: 28px;
+  }
+  .sponsor--first-set .frame-seven a > img {
+    width: 83px;
+    height: 28px;
+  }
+  .frame--one a > img,
+  .frame-two a > img,
+  .frame-three a > img,
+  .frame-four a > img,
+  .frame-five a > img,
+  .frame-six a > img,
+  .frame-seven a > img {
+    margin-bottom: 16px;
+  }
+  .sponsor--title {
+    font-size: 10px;
+  }
+  .sponsor--year {
+    font-size: 8px;
+  }
+  /* END OF NEW SPONSORSHIP */
+
+  .or__partnership-title h1 {
+    font-size: 12px;
+  }
+  .or__partnership {
+    display: block;
+    text-align: center;
+  }
+  .or__partnership-first,
+  .sponsor__acm,
+  .sponsor__laliga,
+  .sponsor__afc,
+  .sponsor__crystal,
+  .sponsor__manchester,
+  .sponsor__tottemham {
+    display: block;
+  }
+  .or__partnership-sponsor {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 24px;
+    gap: 5vw;
+  }
+}
+
+@media (max-width: 985px) {
+  .content__banner__texts > .btn {
+    min-width: 160px;
+    margin: 0 8px 24px 8px;
+    padding: 20px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .table--parent {
+    overflow-x: scroll;
+  }
+  .desk-header {
+    display: none;
+    visibility: hidden;
+  }
+  .mobi-header {
+    display: block;
+    width: 70px;
+    visibility: hidden;
+    /* margin-left: 52px; */
+  }
+  /* FOOTER */
+  .sponsor__acm p,
+  .sponsor__laliga p,
+  .sponsor__afc p,
+  .sponsor__crystal p,
+  .sponsor__manchester p,
+  .sponsor__tottemham p {
+    font-size: 10px;
+  }
+
+  /* FOR THE NEW SPONSORSHIP */
+  .new__sponsors-inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .new--sponsors-title h1 {
+    font-size: 14px;
+  }
+  .sponsor--first-set,
+  .sponsor--second-set {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  /* END OF NEW SPONSORSHIP */
+  .or__partnership {
+    display: none;
+  }
+  .or__partnership-mobi {
+    display: block;
+    text-align: center;
+  }
+  .or__partnership-sponsor {
+    display: block;
+  }
+  .partnership-mobi-col1,
+  .partnership-mobi-col2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 17vw;
+  }
+  .partnership-mobi-col1 {
+    margin-bottom: 24px;
+  }
+  .or__partnership-title h1 {
+    font-size: 10px;
+  }
+  .txt__tile-sponsor p:first-child {
+    display: none;
+  }
+  .sponsor__acm img,
+  .sponsor__laliga img,
+  .sponsor__afc img,
+  .sponsor__crystal img,
+  .sponsor__manchester img,
+  .sponsor__tottemham img {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 8px;
+  }
+  .content__banner__texts > .btn {
+    margin: 8px 8px;
+    padding: 20px 12%;
+    min-width: 294px;
+  }
+  body[data-lang="vn"] .content__teaser__banner .btn {
+    padding: 16px 12px;
+    width: 50%;
+  }
+  .table--parent {
+    overflow-x: scroll;
+    width: auto;
+    padding: 0 32px;
+    margin: 0px -32px;
+  }
+  .table--parent table {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    visibility: visible;
+    height: 100%;
+    width: 100%;
+    padding: 0 -16px;
+  }
+}
+
+@media (max-width: 559px) {
+  .btn {
+    font-size: 14px;
+    padding: 1.2em 1.25em;
+  }
+}
+
+@media (hover: hover) {
+  .unavailable:hover {
+    cursor: not-allowed;
+  }
+  .frame--flex:hover img {
+    transform: scale(1.05);
+    --webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+  }
+}
