@@ -1,0 +1,11 @@
+{
+    "name": "crispaulcastaneda/guess-the-winner",
+    "description": "An interactive landing page website.",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "y"
+        }
+    ],
+    "require": {}
+}
